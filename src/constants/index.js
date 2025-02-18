@@ -9,9 +9,9 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2018 - Present",
+    year: "2015 - Present",
     role: "IT Specialist",
-    company: "Alpha Industry",
+    company: "XYZ Company",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["EdgeCAM", "SolidWorks", "Blender", "MS Office", "AutoCAD", "3D Printing", "VS-Code"],
   },
@@ -49,7 +49,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Alpha Industry, Small Industrial Estate, Kohat road, Peshawar, Pakistan",
-  phoneNo: "+923349599990",
-  email: "mohabd1995@gmail.com",
+  address: "abc",
+  phoneNo: "+123",
+  email: "abc@efg.com",
 };

@@ -1,4 +1,4 @@
-import { FaBehance } from "react-icons/fa"
+import { FaLinkedin } from "react-icons/fa"
 import logo from "../assets/a.png"
 
 const Navbar = () => {
@@ -11,8 +11,8 @@ const Navbar = () => {
         </div>
 
         <div className="mx-12 4flex items-center justify-center gap-4 text-2xl">
-            <a href="https://www.behance.net/abdninesix" target="_blank" rel="noopener noreferrer" aria-label="Behance">
-                <FaBehance className="text-4xl text-stone-400"/>
+            <a href="" target="_blank" rel="noopener noreferrer" aria-label="Behance">
+                <FaLinkedin className="text-4xl text-blue-900"/>
             </a>
         </div>
         

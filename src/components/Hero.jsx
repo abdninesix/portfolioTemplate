@@ -42,7 +42,7 @@ const Hero = () => {
                         <span>I can work with</span><br/><TypeAnimation sequence={["React.js",1000,"Next.js",1000,"Vue.js",1000,"Framer motion",1000,"TailwindCSS",1000,"Figma",1000,"Wordpress",1000]} wrapper="span" speed={50} repeat={Infinity}/>
                     </motion.h2>
                     <motion.p variants={childVariants} className="py-6 text-xl leading-relaxed tracking-tighter lg:text-left">{HERO_CONTENT}</motion.p>
-                    <motion.a variants={childVariants} href="/resume.pdf" target="_blank rel=noopener noreferrer" download className="bg-indigo-800 rounded-full p-4 text-[15px] text-white mb-10">Check my resume</motion.a>
+                    <motion.a variants={childVariants} href="/resume.pdf" target="_blank rel=noopener noreferrer" className="bg-indigo-800 rounded-full p-4 text-[15px] text-white mb-10">Check my resume</motion.a>
                 </motion.div>
             </div>
         </div>
