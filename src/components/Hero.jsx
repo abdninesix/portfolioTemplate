@@ -34,7 +34,7 @@ const Hero = () => {
             <div className="w-full lg:w-1/2 text-left">
                 <motion.div initial="hidden" animate="visible" variants={containerVariants} className="flex flex-col items-center lg:items-start mt-5">
                     <motion.h2 variants={childVariants} className="pb-2 text-4xl tracking-tighter lg:text-8xl">
-                        <span>Hi ! I'm</span><br/><span className="text-indigo-800">Abdullah</span>
+                        <span>Hi !</span><br/><span className="text-indigo-800">Abdullah here</span>
                     </motion.h2>
 
                     <motion.span variants={childVariants} className="bg-clip-text text-2xl lg:text-4xl tracking-tight">As a frontend developer,</motion.span>
